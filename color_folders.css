@@ -32,12 +32,23 @@
     color: var(--b);
 }
 
-/**/
-/* .nav-folder-title[data-path="1 Journal"] {
-    color: var(--b);
-    background: var(--f-frst) !important;
-    border-bottom: 2px solid var(--f-frst);
-} */
+/*  */
+
+.nav-folder-title[data-path*="0 Private"],
+.nav-folder-title[data-path*="0 Private"] + .nav-folder-children,
+.nav-file-title[data-path*="0 Private"] {
+    color: var(--f-f);
+    border-left: 3px solid var(--f-f);
+    margin-left: 8px;
+}
+.nav-folder-title[data-path*="0 Private"]:hover,
+.nav-folder-title[data-path*="0 Private"] + .nav-folder-children:hover,
+.nav-file-title[data-path*="0 Private"]:hover {
+    border-color: var(--f-f);
+}
+
+/*  */
+
 .nav-folder-title[data-path*="1 Journal"],
 .nav-folder-title[data-path*="1 Journal"] + .nav-folder-children,
 .nav-file-title[data-path*="1 Journal"] {
@@ -51,67 +62,38 @@
     border-color: var(--f-frst);
 }
 
-/**/
-/* .nav-folder-title[data-path="2 Life"] {
-    color: var(--b);
-    background: var(--l1) !important;
-    border-bottom: 2px solid var(--l1);
-} */
-.nav-folder-title[data-path*="2 Life"],
-.nav-folder-title[data-path*="2 Life"] + .nav-folder-children,
-.nav-file-title[data-path*="2 Life"] {
+/*  */
+
+.nav-folder-title[data-path*="2 Nauka"],
+.nav-folder-title[data-path*="2 Nauka"] + .nav-folder-children,
+.nav-file-title[data-path*="2 Nauka"] {
     color: var(--l1);
     border-left: 3px solid var(--l1);
     margin-left: 8px;
 }
-.nav-folder-title[data-path*="2 Life"]:hover,
-.nav-folder-title[data-path*="2 Life"] + .nav-folder-children:hover,
-.nav-file-title[data-path*="2 Life"]:hover {
+.nav-folder-title[data-path*="2 Nauka"]:hover,
+.nav-folder-title[data-path*="2 Nauka"] + .nav-folder-children:hover,
+.nav-file-title[data-path*="2 Nauka"]:hover {
     border-color: var(--l1);
 }
 
-/**/
-/* .nav-folder-title[data-path="3 Listy"] {
-    color: var(--b);
-    background: var(--l) !important;
-    border-bottom: 2px solid var(--l);
-} */
-.nav-folder-title[data-path*="3 Listy"],
-.nav-folder-title[data-path*="3 Listy"] + .nav-folder-children,
-.nav-file-title[data-path*="3 Listy"] {
-    border-left: 3px solid var(--l);
+/*  */
+
+.nav-folder-title[data-path*="3 Pisanie"],
+.nav-folder-title[data-path*="3 Pisanie"] + .nav-folder-children,
+.nav-file-title[data-path*="3 Pisanie"] {
+    color: var(--gg);
+    border-left: 3px solid var(--gg);
     margin-left: 8px;
 }
-.nav-folder-title[data-path*="3 Listy"]:hover,
-.nav-folder-title[data-path*="3 Listy"] + .nav-folder-children:hover,
-.nav-file-title[data-path*="3 Listy"]:hover {
-    border-color: var(--l);
+.nav-folder-title[data-path*="3 Pisanie"]:hover,
+.nav-folder-title[data-path*="3 Pisanie"] + .nav-folder-children:hover,
+.nav-file-title[data-path*="3 Pisanie"]:hover {
+    border-color: var(--gg);
 }
 
-/**/
-/* .nav-folder-title[data-path="4 Rozwój"] {
-    color: var(--b);
-    background: var(--l1) !important;
-    border-bottom: 2px solid var(--l1);
-} */
-.nav-folder-title[data-path*="4 Rozwój"],
-.nav-folder-title[data-path*="4 Rozwój"] + .nav-folder-children,
-.nav-file-title[data-path*="4 Rozwój"] {
-    border-left: 3px solid var(--l1);
-    margin-left: 8px;
-}
-.nav-folder-title[data-path*="4 Rozwój"]:hover,
-.nav-folder-title[data-path*="4 Rozwój"] + .nav-folder-children:hover,
-.nav-file-title[data-path*="4 Rozwój"]:hover {
-    border-color: var(--l1);
-}
+/*  */
 
-/**/
-/* .nav-folder-title[data-path="4 Finanse"] {
-    color: var(--b);
-    background: var(--y) !important;
-    border-bottom: 2px solid var(--y);
-} */
 .nav-folder-title[data-path*="4 Finanse"],
 .nav-folder-title[data-path*="4 Finanse"] + .nav-folder-children,
 .nav-file-title[data-path*="4 Finanse"] {
@@ -125,48 +107,6 @@
     border-color: var(--y);
 }
 
-/**/
-.nav-folder-title[data-path="5 Wycieczki"] {
-    color: var(--b);
-    background: var(--bl) !important;
-    border-bottom: 2px solid var(--bl);
-}
-.nav-folder-title[data-path*="5 Wycieczki"],
-.nav-folder-title[data-path*="5 Wycieczki"] + .nav-folder-children,
-.nav-file-title[data-path*="5 Wycieczki"] {
-    border-left: 3px solid var(--bl);
-    margin-left: 8px;
-}
-.nav-folder-title[data-path*="5 Wycieczki"]:hover,
-.nav-folder-title[data-path*="5 Wycieczki"] + .nav-folder-children:hover,
-.nav-file-title[data-path*="5 Wycieczki"]:hover {
-    border-color: var(--bl);
-}
-
-/**/
-.nav-folder-title[data-path="6 Work"] {
-    color: var(--b);
-    background: var(--l1) !important;
-    border-bottom: 2px solid var(--l1);
-}
-.nav-folder-title[data-path*="6 Work"],
-.nav-folder-title[data-path*="6 Work"] + .nav-folder-children,
-.nav-file-title[data-path*="6 Work"] {
-    border-left: 3px solid var(--l1);
-    margin-left: 8px;
-}
-.nav-folder-title[data-path*="6 Work"]:hover,
-.nav-folder-title[data-path*="6 Work"] + .nav-folder-children:hover,
-.nav-file-title[data-path*="6 Work"]:hover {
-    border-color: var(--l1);
-}
-
-/**/
-/* .nav-folder-title[data-path="Skrypty i Templates"] {
-    color: var(--w);
-    background: var(--f-frst) !important;
-    border-bottom: 2px solid var(--f-frst);
-} */
 .nav-folder-title[data-path*="Skrypty i Templates"],
 .nav-folder-title[data-path*="Skrypty i Templates"] + .nav-folder-children,
 .nav-file-title[data-path*="Skrypty i Templates"] {
