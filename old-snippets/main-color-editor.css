@@ -1,0 +1,8 @@
+/* .view-content {
+    background-color: #121212;
+} */
+
+body{
+    --background-primary: #121212;
+    /* --background-secondary:  */
+}

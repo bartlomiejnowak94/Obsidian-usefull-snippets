@@ -1,0 +1,121 @@
+.theme-dark {
+    /*Darker Color for 2*/
+    --f-frst: #81a1c1;
+    --l: #E67C73;
+    --l1: #ffb0a9;
+    --y: #F6BF26;
+    --bl: #039BE5;
+    --f-r: #bf616a;
+    --rr: #AD1457;
+    --f-f: #434853;
+    --gg: #7CB342;
+}
+
+.theme-light {
+    /*Darker Color for 1*/
+    --f-frst: #4386c9;
+    --l: #ce7169;
+    --l1: #fc8a80;
+    --y: #ffc72d;
+    --bl: #039BE5;
+    --f-r: #bf616a;
+    --rr: #AD1457;
+    --f-f: #434853;
+    --gg: #7CB342;
+}
+
+.nav-folder-title{
+    color: var(--b);
+}
+
+.nav-file-title{
+    color: var(--b);
+}
+
+/*  */
+
+.nav-folder-title[data-path*="0 Private"],
+.nav-folder-title[data-path*="0 Private"] + .nav-folder-children,
+.nav-file-title[data-path*="0 Private"] {
+    color: var(--f-f);
+    border-left: 3px solid var(--f-f);
+    margin-left: 8px;
+}
+.nav-folder-title[data-path*="0 Private"]:hover,
+.nav-folder-title[data-path*="0 Private"] + .nav-folder-children:hover,
+.nav-file-title[data-path*="0 Private"]:hover {
+    border-color: var(--f-f);
+}
+
+/*  */
+
+.nav-folder-title[data-path*="1 Journal"],
+.nav-folder-title[data-path*="1 Journal"] + .nav-folder-children,
+.nav-file-title[data-path*="1 Journal"] {
+    color: var(--f-frst);
+    border-left: 3px solid var(--f-frst);
+    margin-left: 8px;
+}
+.nav-folder-title[data-path*="1 Journal"]:hover,
+.nav-folder-title[data-path*="1 Journal"] + .nav-folder-children:hover,
+.nav-file-title[data-path*="1 Journal"]:hover {
+    border-color: var(--f-frst);
+}
+
+/*  */
+
+.nav-folder-title[data-path*="2 Nauka"],
+.nav-folder-title[data-path*="2 Nauka"] + .nav-folder-children,
+.nav-file-title[data-path*="2 Nauka"] {
+    color: var(--l1);
+    border-left: 3px solid var(--l1);
+    margin-left: 8px;
+}
+.nav-folder-title[data-path*="2 Nauka"]:hover,
+.nav-folder-title[data-path*="2 Nauka"] + .nav-folder-children:hover,
+.nav-file-title[data-path*="2 Nauka"]:hover {
+    border-color: var(--l1);
+}
+
+/*  */
+
+.nav-folder-title[data-path*="3 Pisanie"],
+.nav-folder-title[data-path*="3 Pisanie"] + .nav-folder-children,
+.nav-file-title[data-path*="3 Pisanie"] {
+    color: var(--gg);
+    border-left: 3px solid var(--gg);
+    margin-left: 8px;
+}
+.nav-folder-title[data-path*="3 Pisanie"]:hover,
+.nav-folder-title[data-path*="3 Pisanie"] + .nav-folder-children:hover,
+.nav-file-title[data-path*="3 Pisanie"]:hover {
+    border-color: var(--gg);
+}
+
+/*  */
+
+.nav-folder-title[data-path*="4 Finanse"],
+.nav-folder-title[data-path*="4 Finanse"] + .nav-folder-children,
+.nav-file-title[data-path*="4 Finanse"] {
+    color: var(--y);
+    border-left: 3px solid var(--y);
+    margin-left: 8px;
+}
+.nav-folder-title[data-path*="4 Finanse"]:hover,
+.nav-folder-title[data-path*="4 Finanse"] + .nav-folder-children:hover,
+.nav-file-title[data-path*="4 Finanse"]:hover {
+    border-color: var(--y);
+}
+
+.nav-folder-title[data-path*="Skrypty i Templates"],
+.nav-folder-title[data-path*="Skrypty i Templates"] + .nav-folder-children,
+.nav-file-title[data-path*="Skrypty i Templates"] {
+    color: var(--f-frst);
+    border-left: 3px solid var(--f-frst);
+    margin-left: 8px;
+}
+.nav-folder-title[data-path*="Skrypty i Templates"]:hover,
+.nav-folder-title[data-path*="Skrypty i Templates"] + .nav-folder-children:hover,
+.nav-file-title[data-path*="Skrypty i Templates"]:hover {
+    border-color: var(--f-frst);
+}

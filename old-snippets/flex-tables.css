@@ -1,0 +1,18 @@
+/* body {
+    --table-header-size: 1em;
+    --table-header-weight: 600;
+    --table-text-size: var(--font-tiny);
+    --table-white-space: normal;
+    --table-border-width: 1px;
+    --table-border-color: var(--basic-border-color);
+    --table-header-border-color: var(--basic-border-color);
+    --table-header-border-width: 1px;
+    --table-header-background: var(--bg5);
+    --table-row-background-hover: var(--bg3);
+    --table-header-background-hover: var(--bg5);
+    --table-row-alt-background: var(--b-row);
+}
+
+.table-view-table{
+    width: 80%;
+} */

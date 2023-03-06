@@ -1,0 +1,40 @@
+.button-default {
+    color: black!important;
+}
+button.yellow, button.yellow:hover {
+    background: var(--color-yellow);
+}
+button.blue, button.blue:hover {
+    background: var(--color-blue);
+}
+button.red, button.red:hover {
+    background: var(--color-red);
+}
+button.green, button.green:hover {
+    background: var(--color-green);
+}
+button.purple, button.purple:hover {
+    background: var(--color-purple);
+}
+
+body.theme-dark .button-default, body.theme-light .button-default {
+    border: none;
+    box-shadow: none;
+    font-size: revert;
+    font-weight: 500;
+    padding: 0 20px;
+    transform: none;
+    transition: all .1s linear;
+    height: 32px;
+}
+
+body.theme-dark .button-default:hover, body.theme-light .button-default:hover {
+    border: none;
+    box-shadow: none;
+    font-size: revert;
+    font-weight: 500;
+    padding: 0 20px;
+    transform: none;
+    transition: all .1s linear;
+    height: 32px;
+}
